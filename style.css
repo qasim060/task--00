@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+     
+    h1{
+    
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .welcome{
+    
+        color: rgb(236, 236, 236);
+        text-align: center;
+        
+    }
+    .container{
+    
+        border: 5px solid rgb(249, 247, 247);
+        border-radius: 5px;
+        width: 1000px;
+        margin: 50px auto;
+        display: flex;
+        height: 500px;
+        
+    }
+    
+    .col-1{
+    
+        width: 50%;
+        padding: 30px 20px;
+        height: 54%;
+        color: white;
+    }
+
+    .col-1{
+        background-image: url(./pexels-souvenirpixels-1486974.jpg);
+        text-align:center;
+        padding-top:200px ;
+       background-size:cover;
+    
+
+    }
+
+    .col-2{
+    
+        width: 50%;
+        padding: 80px 20px;
+    }
+    
+    .form-row{
+    
+        display: flex;
+        flex-direction: column;
+
+    }
+    
+    .check{
+        
+        display: flex;
+        justify-content: space-between;
+        
+        
+    }
+
+    
+    
+    .btn{
+    
+        width: 400px;
+        padding: 10px;
+        cursor: pointer;
+        color: rgb(251, 251, 251);
+        background-color: rgb(171, 68, 236);
+        border-radius: 5px;
+        margin-left: 25px;
+    }
+    
+    .heading{
+    
+        border: 2px solid red;
+      
+    }
+    
+    .login p{
+    
+        margin: 20px 0;
+    }
+    
+    .form-row label{
+    
+        color:silver;
+    }
+    
+    .form-row input{
+    
+        padding: 9px 10px;
+        border-radius: 5px;
+        border: 1px solid silver;
+        outline: none;
+    }
+    
+    .users{
+    
+        margin-top: 30px;
+    }
+
+    a{
+        text-decoration: none
+    }
+
+   @media (max-width:700px) {
+
+    .container{
+        margin: 40px;
+    }
+    .container .col-1{
+
+        display: none;
+    }
+   
+    
+   }
+
+
+   
+   @media (max-width:700px) {
+
+    .container{
+        margin: 40px;
+    }
+   
+    .container .col-2{
+
+        width: 100%S;
+    }
+
+    .container .col-2 .content{
+
+        width: 75%;
+    }
+    
+   }
